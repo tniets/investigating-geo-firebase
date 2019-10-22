@@ -36,6 +36,7 @@ class Firebase{
 		.get()
 		.then(value => {
 			console.log(value.docs);
+			value.forEach(doc => console.log(doc.data()));
 		});
 
 }
