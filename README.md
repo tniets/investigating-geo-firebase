@@ -8,5 +8,5 @@ npm start
 
 You can submit locations by using the top form.
 
-Use second form to find locations in radius (km).
+Use second form to find locations in radius (km). Results will be displayed in the browser console.
 
